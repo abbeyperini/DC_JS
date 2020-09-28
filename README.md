@@ -1,1 +1,1 @@
-# DC_JS
+Javascript assignments for Week 4 and Week 5 of DigitalCrafts.
