@@ -56,6 +56,10 @@ h3 {
     background-color: #52796F;
 }
 
+#completedTasks .task {
+    background-color: #7A9E7E;
+}
+
 button {
     background-color: #354F52;
     border: none;
