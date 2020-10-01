@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+img {
+  width: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  margin: 10%;
+  list-style-type: none;
+  text-align: center;
+}
