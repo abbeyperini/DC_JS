@@ -1,8 +1,10 @@
 
 
-# Javascript assignments for Week 4 and Week 5 of DigitalCrafts
+# Week 4 and 5 DigitalCrafts Full-Stack Immersive
 
 One Paragraph of project description goes here
+Something along the lines of... Coursework on JavaScript, JSON, Firebase, and Debugging. It contains assignments, files, activities, and 
+notes from Week-4 and week-5.  
 
 ## Summary
 
