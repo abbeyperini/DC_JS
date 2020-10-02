@@ -1,12 +1,12 @@
 
 
-# Week 4 and 5 DigitalCrafts Full-Stack Immersive
+<h1> Week 4 and 5 DigitalCrafts Full-Stack Immersive </h1>
 
  - **One Paragraph of project description goes here Something along the lines of...** -
   Coursework on JavaScript, JSON, Firebase, and Debugging. It contains assignments, files, activities, and 
   notes from Week-4 and week-5.  
 
-## Summary
+<h2> Summary </h2>
 
   - [Getting Started](#getting-started)
   - [Runing the tests](#running-the-tests)
@@ -99,16 +99,25 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
 ## Screenshots
 
+Obviously screenshots of you projects go here. You can even add GIFs if its a bigger project and has more pages or functionality.
+I really reccomend GIF's for your upcoming projects in the course!
+
+- **NOTICE:** I changed the screenshots to use img tags check out the raw code to see. 
+- Reason I did was for ability to size images. Html tags work same in README **HINT HINT**
+
+
 **Week 4 Day 2 - To Do List App**
 
 ![To Do Mobile](Screenshots/ToDoMobile.png)
 
 **Week 4 Day 3 - Menu App - buttons return filtered menus**
 
-<img src="Screenshots/MenuDesktop.png" width="100" height="100"/>
+<img src="Screenshots/MenuDesktop.png" width="900" height="600"/>
+
+<img src="Screenshots/MenuMobile.png" width="450" height="1000"/>
 
 
-![Menu Mobile](Screenshots/MenuMobile.png)
+
 
 ## Acknowledgments
 
