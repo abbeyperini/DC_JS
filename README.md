@@ -15,7 +15,7 @@
   - [Contributing](#contributing)
   - [Versioning](#versioning)
   - [Authors](#authors)
-  - [License](#license)
+  - [Screenshots](#screenshots)
   - [Acknowledgments](#acknowledgments)
 
 ## Getting Started
@@ -98,11 +98,16 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
     [NathanNoSudo](https://github.com/NathanNoSudo)
 
 ## Screenshots
-Week 4 Day 2 - To Do List App:
+
+**Week 4 Day 2 - To Do List App**
+
 ![To Do Mobile](Screenshots/ToDoMobile.png)
 
-Week 4 Day 3 - Menu App - buttons return filtered menus:
-![Menu Desktop](Screenshots/MenuDesktop.png)
+**Week 4 Day 3 - Menu App - buttons return filtered menus**
+
+<img src="Screenshots/MenuDesktop.png" width="100" height="100"/>
+
+
 ![Menu Mobile](Screenshots/MenuMobile.png)
 
 ## Acknowledgments
