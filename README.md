@@ -1,8 +1,330 @@
-Javascript assignments for Week 4 and Week 5 of DigitalCrafts.
 
-Week 4 Day 2 - To Do List App:
+
+<h1> Week 4 and 5 DigitalCrafts Full-Stack Immersive </h1>
+
+ - **One Paragraph of project description goes here Something along the lines of...** -
+  Coursework on JavaScript, JSON, Firebase, and Debugging. It contains assignments, files, activities, and 
+  notes from Week-4 and week-5.  
+
+<h2> Summary </h2>
+
+  - [Getting Started](#getting-started)
+  - [Runing the tests](#running-the-tests)
+  - [Deployment](#deployment)
+  - [Built With](#built-with)
+  - [Contributing](#contributing)
+  - [Versioning](#versioning)
+  - [Authors](#authors)
+  - [Screenshots](#screenshots)
+  - [Acknowledgments](#acknowledgments)
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on
+your local machine for development and testing purposes. See deployment
+for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them.
+You will have a better understanding of what goes here next week.
+
+    Give examples like what node modules are required
+    nodemon 
+    express version => 3.3
+    uuid version =< v1.01
+    etc
+
+### Installing
+
+A step by step series of examples that tell you how to get a development
+env running
+
+Say what the step will be - **First Install express-router** -
+
+    Give the example: 
+    npm install express-router
+
+And repeat all steps
+
+    until finished
+
+End with an example of getting some data out of the system or using it
+for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+    Give an example
+
+### And coding style tests
+
+Explain what these tests test and why
+
+    Give an example
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
+    for the Code of Conduct
+  - [Creative Commons](https://creativecommons.org/) - Used to choose
+    the license
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
+of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions
+available, see the [tags on this
+repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
+
+## Authors
+
+  - **Billie Thompson** - *Provided README Template* -
+    [PurpleBooth](https://github.com/PurpleBooth)
+  - **Nathan Orris** - *The Certified* [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)- **DiR at DigitalCrafts Houston** -
+    [NathanNoSudo](https://github.com/NathanNoSudo)
+
+## Screenshots
+
+Obviously screenshots of you projects go here. You can even add GIFs if its a bigger project and has more pages or functionality.
+I really reccomend GIF's for your upcoming projects in the course!
+
+- **NOTICE:** I changed the screenshots to use img tags check out the raw code to see. 
+- Reason I did was for ability to size images. Html tags work same in README **HINT HINT**
+
+
+**Week 4 Day 2 - To Do List App**
+
 ![To Do Mobile](Screenshots/ToDoMobile.png)
 
-Week 4 Day 3 - Menu App - buttons return filtered menus:
-![Menu Desktop](Screenshots/MenuDesktop.png)
-![Menu Mobile](Screenshots/MenuMobile.png)
+**Week 4 Day 3 - Menu App - buttons return filtered menus**
+
+<img src="Screenshots/MenuDesktop.png" width="900" height="600"/>
+
+<img src="Screenshots/MenuMobile.png" width="450" height="1000"/>
+
+
+
+
+## Acknowledgments
+
+  - Hat tip to anyone whose code was used
+  - Inspiration
+  - etc
+
+
+
+# BONUS TIP!
+
+People
+
+:bowtie:
+:smile:
+:laughing:
+:blush:
+:smiley:
+:relaxed:
+:smirk:
+:heart_eyes:
+:kissing_heart:
+:kissing_closed_eyes:
+:flushed:
+:relieved:
+:satisfied:
+:grin:
+:wink:
+:stuck_out_tongue_winking_eye:
+:stuck_out_tongue_closed_eyes:
+:grinning:
+:kissing:
+:kissing_smiling_eyes:
+:stuck_out_tongue:
+:sleeping:
+:worried:
+:frowning:
+:anguished:
+:open_mouth:
+:grimacing:
+:confused:
+:hushed:
+:expressionless:
+:unamused:
+:sweat_smile:
+:sweat:
+:disappointed_relieved:
+:weary:
+:pensive:
+:disappointed:
+:confounded:
+:fearful:
+:cold_sweat:
+:persevere:
+:cry:
+:sob:
+:joy:
+:astonished:
+:scream:
+:neckbeard:
+:tired_face:
+:angry:
+:rage:
+:triumph:
+:sleepy:
+:yum:
+:mask:
+:sunglasses:
+:dizzy_face:
+:imp:
+:smiling_imp:
+:neutral_face:
+:no_mouth:
+:innocent:
+:alien:
+:yellow_heart:
+:blue_heart:
+:purple_heart:
+:heart:
+:green_heart:
+:broken_heart:
+:heartbeat:
+:heartpulse:
+:two_hearts:
+:revolving_hearts:
+:cupid:
+:sparkling_heart:
+:sparkles:
+:star:
+:star2:
+:dizzy:
+:boom:
+:collision:
+:anger:
+:exclamation:
+:question:
+:grey_exclamation:
+:grey_question:
+:zzz:
+:dash:
+:sweat_drops:
+:notes:
+:musical_note:
+:fire:
+:hankey:
+:poop:
+:shit:
+:+1:
+:thumbsup:
+:-1:
+:thumbsdown:
+:ok_hand:
+:punch:
+:facepunch:
+:fist:
+:v:
+:wave:
+:hand:
+:raised_hand:
+:open_hands:
+:point_up:
+:point_down:
+:point_left:
+:point_right:
+:raised_hands:
+:pray:
+:point_up_2:
+:clap:
+:muscle:
+:metal:
+:fu:
+:walking:
+:runner:
+:running:
+:couple:
+:family:
+:two_men_holding_hands:
+:two_women_holding_hands:
+:dancer:
+:dancers:
+:ok_woman:
+:no_good:
+:information_desk_person:
+:raising_hand:
+:bride_with_veil:
+:person_with_pouting_face:
+:person_frowning:
+:bow:
+:couplekiss:
+:couple_with_heart:
+:massage:
+:haircut:
+:nail_care:
+:boy:
+:girl:
+:woman:
+:man:
+:baby:
+:older_woman:
+:older_man:
+:person_with_blond_hair:
+:man_with_gua_pi_mao:
+:man_with_turban:
+:construction_worker:
+:cop:
+:angel:
+:princess:
+:smiley_cat:
+:smile_cat:
+:heart_eyes_cat:
+:kissing_cat:
+:smirk_cat:
+:scream_cat:
+:crying_cat_face:
+:joy_cat:
+:pouting_cat:
+:japanese_ogre:
+:japanese_goblin:
+:see_no_evil:
+:hear_no_evil:
+:speak_no_evil:
+:guardsman:
+:skull:
+:feet:
+:lips:
+:kiss:
+:droplet:
+:ear:
+:eyes:
+:nose:
+:tongue:
+:love_letter:
+:bust_in_silhouette:
+:busts_in_silhouette:
+:speech_balloon:
+:thought_balloon:
+:feelsgood:
+:finnadie:
+:goberserk:
+:godmode:
+:hurtrealbad:
+:rage1:
+:rage2:
+:rage3:
+:rage4:
+:suspect:
+:trollface:
+
+
+
