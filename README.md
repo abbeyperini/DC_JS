@@ -40,11 +40,12 @@ You will have a better understanding of what goes here next week.
 A step by step series of examples that tell you how to get a development
 env running
 
-Say what the step will be
+Say what the step will be - **First Install express-router** -
 
-    Give the example
+    Give the example: 
+    npm install express-router
 
-And repeat
+And repeat all steps
 
     until finished
 
@@ -96,15 +97,13 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
   - **Nathan Orris** - *The Certified* [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)- **DiR at DigitalCrafts Houston** -
     [NathanNoSudo](https://github.com/NathanNoSudo)
 
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
+## Screenshots
+Week 4 Day 2 - To Do List App:
+![To Do Mobile](Screenshots/ToDoMobile.png)
 
-## License
-
-This project is licensed under the [Attribution 4.0
-International](LICENSE.md) Creative Commons License - see the
-[LICENSE.md](LICENSE.md) file for details
+Week 4 Day 3 - Menu App - buttons return filtered menus:
+![Menu Desktop](Screenshots/MenuDesktop.png)
+![Menu Mobile](Screenshots/MenuMobile.png)
 
 ## Acknowledgments
 
@@ -114,9 +113,6 @@ International](LICENSE.md) Creative Commons License - see the
 
 
 
-Week 4 Day 2 - To Do List App:
-![To Do Mobile](Screenshots/ToDoMobile.png)
 
-Week 4 Day 3 - Menu App - buttons return filtered menus:
-![Menu Desktop](Screenshots/MenuDesktop.png)
-![Menu Mobile](Screenshots/MenuMobile.png)
+
+
