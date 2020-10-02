@@ -2,9 +2,9 @@
 
 # Week 4 and 5 DigitalCrafts Full-Stack Immersive
 
-One Paragraph of project description goes here
-Something along the lines of... Coursework on JavaScript, JSON, Firebase, and Debugging. It contains assignments, files, activities, and 
-notes from Week-4 and week-5.  
+ - **One Paragraph of project description goes here Something along the lines of...** -
+  Coursework on JavaScript, JSON, Firebase, and Debugging. It contains assignments, files, activities, and 
+  notes from Week-4 and week-5.  
 
 ## Summary
 
@@ -26,9 +26,14 @@ for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What things you need to install the software and how to install them.
+You will have a better understanding of what goes here next week.
 
-    Give examples
+    Give examples like what node modules are required
+    nodemon 
+    express version => 3.3
+    uuid version =< v1.01
+    etc
 
 ### Installing
 
