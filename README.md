@@ -17,7 +17,7 @@
 
 - Prompt was to create a To Do List that looked good on mobile, allowed for adding and removing tasks, and allowed the user to move an item from pending tasks to completed and vice versa.
 
-<img src="Screenshots/ToDoMobile.png" width="450" height="1000"/>
+<img src="Screenshots/ToDoMobile.png" width="360" height="1000"/>
 
 **Week 4 Day 3 - Menu App**
 
@@ -25,7 +25,7 @@
 
 <img src="Screenshots/MenuDesktop.png" width="900" height="600"/>
 
-<img src="Screenshots/MenuMobile.png" width="450" height="1000"/>
+<img src="Screenshots/MenuMobile.png" width="360" height="1000"/>
 
 **Week 4 Day 4 - News App**
 
