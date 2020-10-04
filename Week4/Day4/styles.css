@@ -4,20 +4,117 @@
     box-sizing: border-box;
   }
 
+body {
+  color: #161B33;
+  background-color: #96BDC6;
+  font-family: 'Amatic SC', cursive;
+}
+
 img {
   width: 50%;
 }
 
 h1 {
   text-align: center;
+  border-bottom: dotted 8px #474973;
+}
+
+#displayEl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 li {
-  margin: 10%;
+  margin: 2%;
+  width: 50%;
   list-style-type: none;
   text-align: center;
+  background-color: #E8CCBF;
+  border-radius: 10px;
+  border: solid 2px #474973;
+}
+
+li h3, li h4, li a, li p {
+  padding: 10px;
+}
+
+img {
+  margin: 10px;
+  margin-top: 20px;
 }
 
 #sourceCon {
-  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.showSourceCon {
+  font-size: .75em;
+}
+
+button {
+  padding: 10px;
+  margin: 5%;
+  border-radius: 6px;
+  background-color: #E9D6EC;
+  font-family: 'Amatic SC', cursive;
+  color: #161B33;
+  font-size: 1em;
+  border-color: #474973;
+}
+
+div > button{
+  font-size: 2em;
+}
+
+button > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a:link, a:active, a:visited {
+  color: #474973;
+}
+
+a:hover, a:focus {
+  color: #96BDC6;
+}
+
+button:hover, button:focus {
+  color: #96BDC6;
+}
+
+button:hover p, button:focus p, button:hover h3, button:focus h3, button:hover h4, button:focus h4 {
+  color: #161B33;
+}
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 6em;
+  }
+  
+  h3 {
+    font-size: 4em;
+  }
+  
+  h4{
+    font-size: 3em;
+  }
+  
+  a, p {
+    font-size: 3em;
+  }
+
+  button {
+    margin: 2%;
+    width: 50%;
+  }
+
+  .showSourceCon {
+    font-size: .25em;
+  }
+
 }

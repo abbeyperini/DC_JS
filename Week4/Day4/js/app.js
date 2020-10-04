@@ -17,7 +17,7 @@ for (i = 0; i < articles.length; i++) {
     literals.push(`<li>`);
     if (article.urlToImage != null) {literals.push(`<img src="${article.urlToImage}" alt="News Article Image">`)};
     literals.push(`<h3>${article.title}</h3>`);
-    if (article.author != null) {literals.push(`<h4>${article.author}</h4>`)};
+    if (article.author != null && article.author.includes("https://www.facebook.com") == false) {literals.push(`<h4>${article.author}</h4>`)};
     if (article.description != null) {literals.push(`<p>${article.description}</p>`)};
     if (article.url != null) {literals.push(`<a href="${article.url}">Source</a>`)};
     if (article.publishedAt != null) {literals.push(`<p>${article.publishedAt}</p>`)};
@@ -48,7 +48,7 @@ let idCounter = 0;
 function showSources() {
     let sourceName = this.innerHTML;
     let matchingSourceURL = getSourceUrl(sourceName);
-    this.insertAdjacentHTML('beforeend', `<ul id="showSourceCon${idCounter}"></ul>`);
+    this.insertAdjacentHTML('beforeend', `<ul class="showSourceCon" id="showSourceCon${idCounter}"></ul>`);
     let innerSourceCon = document.getElementById(`showSourceCon${idCounter}`);
     idCounter++;
 
