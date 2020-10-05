@@ -41,6 +41,14 @@
 
 <img src="Screenshots/newsMobileBottom.png" width="450" height="1000"/>
 
+**Week 5 Day 1 - Movies App**
+
+- Prompt was to display the Batman movies using a IMDB API call, and display the details of a movie using a second API call.
+
+<img src="Screenshots/moviesDesktop.png" width="900" height="600"/>
+
+<img src="Screenshots/moviesMobile.png" width="360" height="1000">
+
 ## Acknowledgments
 
   - **Billie Thompson** - *Provided README Template* -
