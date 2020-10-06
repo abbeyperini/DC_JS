@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'/>
+        <meta name='viewport' content='width=device-width' initial-scale='1.0' maximum-scale='1.0'/>
+        <title></title>
+        <link rel='stylesheet' href='styles.css'/>
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> -->
+    </head>
+    <body>
+        <div id="orderCreatediv">
+            <label>Create Order</label>
+            <input type="text" id="userEmailBox" placeholder="Enter Email Address" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$">
+            <input type="text" id="userCoffeeBox" placeholder="Enter Coffee" pattern="^((?:[A-Z](?:('|(?:[a-z]{1,3}))[A-Z])?[a-z]+)|(?:[A-Z]\.))(?:([ -])((?:[A-Z](?:('|(?:[a-z]{1,3}))[A-Z])?[a-z]+)|(?:[A-Z]\.)))?$">
+            <button id="orderCreateSubmit">Submit</button>
+        </div>
+        <div id="getOrderdiv">
+            <label>Get Order by Email</label>
+            <input type="text" id="getOrderEmailBox" placeholder="Enter Email Address" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$">
+            <button id="getOrderSubmit">Submit</button>
+        </div>
+        <ul id="getEmailDisplay"></ul>
+        <form id="deleteOrderdiv">
+            <label>Delete Order by Email</label>
+            <input type="text" id="deleteOrderEmailBox" placeholder="Enter Email Address" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$">
+            <button id="deleteOrderSubmit">Submit</button>
+        </form>
+        <ul id="displayUL"></ul>
+    </body>
+    <script src="app.js"></script>
+</html>
