@@ -27,7 +27,7 @@ function showOrders(orders) {
 }
 
 function sendOrders() {
-    if (userEmailBox.checkValidity()) {
+    if (userEmailBox.checkValidity() && userCoffeeBox.checkValidity()) {
         let userAddress = userEmailBox.value;
         let userCoffee = userCoffeeBox.value;
         let requestObject = {
