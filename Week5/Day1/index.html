@@ -10,6 +10,11 @@
     <body>
         <ul id="details"></ul>
         <ul id="displayEl"></ul>
+        <div id="searchContain">
+            <input type="text" id="searchBox" placeholder="Movie Title" pattern="^((?:[A-Z](?:('|(?:[a-z]{1,3}))[A-Z])?[a-z]+)|(?:[A-Z]\.))(?:([ -])((?:[A-Z](?:('|(?:[a-z]{1,3}))[A-Z])?[a-z]+)|(?:[A-Z]\.)))?$">
+            <button id="searchSubmit">Submit</button>
+            <ul id="searchDisplay"></ul>
+        </div>
     </body>
     <script src="app.js"></script>
 </html>

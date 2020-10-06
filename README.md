@@ -45,9 +45,13 @@
 
 - Prompt was to display the Batman movies using a IMDB API call, and display the details of a movie using a second API call.
 
+- Went back and refactored. Added a search function with a validated input box as well.
+
 <img src="Screenshots/moviesDesktop.png" width="900" height="600"/>
 
 <img src="Screenshots/moviesMobile.png" width="360" height="1000">
+
+<img src="Screenshots/addedSearch.png" width="900" height="600"/>
 
 **Week 5 Day 2 - Coffee App**
 
