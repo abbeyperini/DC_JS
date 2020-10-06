@@ -1,35 +1,45 @@
 // Hard mode: could use a text box to replace "batman" in the url above with a search term the user wants 
-// Here is your key: 7e25de92
-
-
-let request = new XMLHttpRequest();
+let key = "7e25de92"
 let displayEl = document.getElementById('displayEl');
 let details = document.getElementById('details');
 
 let linkID = '';
 
-function showDetails(clickedID) {
+function showDetails (detailsJSON) {
+    let detailsLi = `<li> <h1>${detailsJSON.Title}</h1>
+            <p>Year: ${detailsJSON.Year}</p>
+            <p>Rated: ${detailsJSON.Rated}</p>
+            <p>Released: ${detailsJSON.Released}</p>
+            <p>Director: ${detailsJSON.Director}</p> </li>`;
+    
+    details.innerHTML = detailsLi;
+}
+
+function getDetails(clickedID, callback) {
     let detailsRequest = new XMLHttpRequest();
-    linkID = "http://www.omdbapi.com/?i=" + clickedID + "&apikey=7e25de92";
+    linkID = "http://www.omdbapi.com/?i=" + clickedID + "&apikey=" + key;
     detailsRequest.open("GET", linkID);
     detailsRequest.addEventListener("load", function() {
         let result = JSON.parse(detailsRequest.responseText);
-        let detailsLi = `<li> <h1>${result.Title}</h1>
-            <p>Year: ${result.Year}</p>
-            <p>Rated: ${result.Rated}</p>
-            <p>Released: ${result.Released}</p>
-            <p>Director: ${result.Director}</p> </li>`;
-        details.innerHTML = detailsLi;
+        callback(result);
     });
     detailsRequest.send();
 };
 
 
-request.addEventListener("load", function() {
-    
-    let result = JSON.parse(this.responseText);
-    let movies = result.Search.map((movie) => {
-        return `<li onclick="showDetails('${movie.imdbID}')">
+function getAllMovies(search, callback) {
+    let request = new XMLHttpRequest();
+    request.open("GET", "http://www.omdbapi.com/?s=" + search + "&apikey=" + key);
+    request.addEventListener("load", function() {
+        let result = JSON.parse(this.responseText);
+        callback(result);
+    })
+    request.send();
+};
+
+function displayAllMovies(moviesJSON) {
+    let movies = moviesJSON.Search.map((movie) => {
+        return `<li onclick="getDetails('${movie.imdbID}', showDetails)">
             <img src="${movie.Poster}" alt="${movie.Title} Poster">
             <label>${movie.Title}</label>
             </li>`
@@ -38,7 +48,7 @@ request.addEventListener("load", function() {
     movies = movies.join('')
     
     displayEl.insertAdjacentHTML('beforeend', movies)
-});
+};
 
-request.open("GET", "http://www.omdbapi.com/?s=batman&apikey=7e25de92");
-request.send();
+getAllMovies("batman", displayAllMovies);
+
