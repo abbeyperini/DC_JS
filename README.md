@@ -63,9 +63,9 @@
 
 <img src="Screenshots/coffeeMobile.png" width="360" height="1000"/>
 
-<img src="Screenshots/coffeeAlert1.png" width="600" height="500"/>
+<img src="Screenshots/coffeeAlert1.png" width="700" height="500"/>
 
-<img src="Screenshots/coffeeAlert2.png" width="600" height="500"/>
+<img src="Screenshots/coffeeAlert2.png" width="700" height="500"/>
 
 ## Acknowledgments
 
