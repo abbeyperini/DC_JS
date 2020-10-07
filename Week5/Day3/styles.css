@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+html {
+    color: #002849;
+    font-family: 'Walter Turncoat', cursive;
+    background-color: #83d9f2;
+}
+
+#highLowIcon, #pressHum, #Buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#changeTemp {
+    margin: 5px;
+}
+
+#changeCityBox {
+    margin-right: 5px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h3 {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    background-color: #fedb41;
+    border: solid 2px #002849;
+    color: #002849;
+    padding: 10px;
+    border-radius: 12px;
+    font-family: 'Walter Turncoat', cursive;
+}
+
+#changeTemp {
+    padding: 5px;
+}
+
+button img {
+    width: 75%;
+}
+
+input {
+    border-color: #002849;
+    background-color: #6e9eff;
+    border-radius: 3px;
+}
+/* colors 
+orange #ff5939
+navy #002849
+light blue #83d9f2
+med blue #6e9eff
+yellow #fedb41
+*/

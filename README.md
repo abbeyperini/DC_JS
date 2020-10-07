@@ -55,7 +55,7 @@
 
 **Week 5 Day 2 - Coffee App**
 
-- Prompt was to create an app which list all the coffee orders from an API on a web page. The user should be able to type in the email address in a textbox and search for a particular coffee order by email address, delete the coffee order, and add a new coffee order. 
+- Prompt was to create an app which lists all the coffee orders from an API on a web page. The user should be able to type in the email address in a textbox and search for a particular coffee order by email address, delete the coffee order, and add a new coffee order. 
 
 - I added form validation and 2 types of alert messages for invalid entries.
 
@@ -66,6 +66,12 @@
 <img src="Screenshots/coffeeAlert1.png" width="900" height="400"/>
 
 <img src="Screenshots/coffeeAlert2.png" width="900" height="400"/>
+
+**Week 5 Day 3 - Weather App**
+
+- Prompt was to create an app which uses the OpenWeatherMap API to get the live weather. I completed the hard mode (automatically find the coordinates of the user and use that to fetch the weather information based on the current location of the user.) As well as adding a button that will convert the temperature units from Fahrenheit to Celsius and vice versa.
+
+<img src="Screenshots/weatherApp.png" width="360" height="800">
 
 ## Acknowledgments
 

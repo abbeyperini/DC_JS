@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'/>
+        <meta name='viewport' content='width=device-width' initial-scale='1.0' maximum-scale='1.0'/>
+        <title>Weather</title>
+        <link rel='stylesheet' href='styles.css'/>
+        <!--icons from https://www.iconfinder.com/iconsets/weather-filled-outline-6-->
+        <link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="cityName"></h1>
+        <div id=highLowIcon>
+            <h3 id="low"></h3>
+            <img id="weatherIcon" src="" alt="">
+            <h3 id="high"></h3>
+        </div>
+        <h3 id="weatherDesc"></h3>
+        <div id="pressHum">
+            <h3 id="press"></h3>
+            <h3 id="hum"></h3>
+        </div>
+        <div id="Buttons">
+            <button id="changeTemp"><img id="changeTempImg" src="icons/celsius.png" alt="Celsius"></button>
+            <input type="text" id="changeCityBox">
+            <button id="changeCityBtn">Change City</button>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
