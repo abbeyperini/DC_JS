@@ -1,4 +1,4 @@
-let APIkey = "eb14f170f80a01b4537a69de2bd78c43";
+let APIkey = key;
 let cityNameDisp = document.getElementById("cityName");
 let topBox = document.getElementById("highLowIcon");
 let lowBox = document.getElementById("low");
