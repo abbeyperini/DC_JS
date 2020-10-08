@@ -75,7 +75,7 @@
 
 **Week 5 Day 4 - Grocery Firebase App**
 
-- Prompt was Create a grocery list app which allows you to add different categories (store name and address), view all grocery categories, and delete grocery categories. Hard mode was to add items to the grocery categories. I added the option to display all items.
+- Prompt was to create a grocery list app which allows you to add different categories (store name and address), view all grocery categories, and delete grocery categories with Firebase. Hard mode was to add items to the grocery categories. I added the option to display all items.
 
 ## Acknowledgments
 
