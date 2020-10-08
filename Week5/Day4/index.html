@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'/>
+        <meta name='viewport' content='width=device-width' initial-scale='1.0' maximum-scale='1.0'/>
+        <title></title>
+        <link rel='stylesheet' href='styles.css'/>
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> -->
+    </head>
+    <body>
+        <div id="addCatBoxes">
+            <input id="userCat" placeholder="Grocery Store Name" type="text">
+            <input id="userAddr" placeholder="Grocery Store Address" type="text">
+            <button id="submitUserCat">Submit</button>
+        </div>
+
+        <ul id="displayCat"></ul>
+        <div id="displayItemsButtons">
+            <input id="storeNameBox" type="text" placeholder="Grocery Store Name">
+            <input id="addItemBox" type="text" placeholder="Add Item">
+            <button id="submitItem">Add</button>
+            <button id="showAllItems">Show All Items</button>
+        </div>
+        <ul id="displayItems"></ul>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-firestore.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-analytics.js"></script>
+
+        <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyBFI6805-ofGpMq6zBu2vrHOV1vv7qZzUA",
+            authDomain: "grocery-624f9.firebaseapp.com",
+            databaseURL: "https://grocery-624f9.firebaseio.com",
+            projectId: "grocery-624f9",
+            storageBucket: "grocery-624f9.appspot.com",
+            messagingSenderId: "24538413720",
+            appId: "1:24538413720:web:bb595183f67ff6c2076eed",
+            measurementId: "G-F9C2MVF4VE"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+
+        // initialize the firebase firestore database 
+        var db = firebase.firestore();
+        </script>
+    </body>
+    <script src="app.js"></script>
+</html>
